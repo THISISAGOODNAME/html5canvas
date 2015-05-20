@@ -6,6 +6,7 @@ modified:
 categories: articles
 excerpt: "A post with a YouTube video."
 tags: [video]
+comments: true
 ads: true
 image:
   feature:
