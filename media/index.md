@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "Sample Media Gallery"
-date: 2014-05-30T11:40:45-04:00
+title: "精彩实例"
+date: 2015-05-20T23:04:45-24:00
 modified:
-excerpt: "An archive of media posts, perfect for portfolios and galleries."
+excerpt: "html5 canvas 学习过程中创造的一些实例"
 tags: []
 image:
   feature:
