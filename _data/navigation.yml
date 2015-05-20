@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: Getting Started
+- title: Quick Start
   url: /getting-started/
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
   image: 400x250.gif
 
-- title: Sample Articles
+- title: 心得体会
   url: /articles/
-  excerpt: "Examples of long form posts."
+  excerpt: "html5 canvas 学习的中的一些见解"
   image: 400x250.gif
 
-- title: Media
+- title: 精彩实例
   url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+  excerpt: "html5 canvas 学习过程中创造的一些实例"
   image: 400x250.gif
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "关于猥大的菊长"
   image: 400x250.gif
