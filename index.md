@@ -28,11 +28,3 @@ image:
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
-
-{% for link in site.data.footer %}
-{{ link.title }}
-{% endfor %}
-
-{% for link in site.data.navigation %}
-{{ link.title }}
-{% endfor %}
