@@ -9,7 +9,7 @@ tags: [video]
 ads: true
 image:
   feature:
-  teaser:
+  teaser: 400x250.gif
 ---
 
 Here's a sample video to test FitVid.js

@@ -6,6 +6,8 @@ modified: 2014-08-27T11:57:41-04:00
 tags: [sample]
 comments: true
 ads: true
+image:
+  teaser: 400x250.gif
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.

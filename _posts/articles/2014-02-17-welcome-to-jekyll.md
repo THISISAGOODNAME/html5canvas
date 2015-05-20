@@ -5,6 +5,8 @@ categories: articles
 modified: 2014-02-19
 share: false
 ads: true
+image:
+  teaser: 400x250.gif
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

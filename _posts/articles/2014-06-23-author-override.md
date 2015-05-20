@@ -10,7 +10,7 @@ tags: []
 ads: true
 image:
   feature:
-  teaser:
+  teaser: 400x250.gif
   thumb:
 ---
 
