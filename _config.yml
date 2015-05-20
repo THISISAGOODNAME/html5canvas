@@ -22,7 +22,7 @@ gems:
 
 # Site owner
 owner:
-  name: Yanjun Yang
+  name: 菊长
   web: http://aicdg.com
   email: yangyj19931231@gmail.com
   twitter: 
@@ -31,7 +31,7 @@ owner:
     ad-slot: 
   bio: 
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+disqus-shortname: aicdgh5canvas
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

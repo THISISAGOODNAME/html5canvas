@@ -111,7 +111,8 @@ Make any link standout more when applying the `.btn` class.
 <a href="#" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
 <a href="#" class="btn-social vimeo"><i class="fa fa-vimeo-square" aria-hidden="true"></i> Vimeo</a>
 <a href="#" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a>
-
+<a href="#" class="btn-social qq"><i class="fa fa-qq" aria-hidden="true"></i> QQ</a>
+<a href="#" class="btn-social mail"><i class="fa fa-envelope" aria-hidden="true"></i> mail</a>
 ## Badges
 
 <div class="badges">
