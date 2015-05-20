@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
+title: 菊长的绘画教室
+description: "html5 canvas学习展示区"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url:
+locale: en_US
+url:  //thisisagoodname.github.io/html5canvas
 
 # Jekyll configuration
 
@@ -22,9 +22,10 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
+  name: Yanjun Yang
+  web: http://aicdg.com
+  email: yangyj19931231@gmail.com
+  twitter: 
   google:
     ad-client: 
     ad-slot: 
