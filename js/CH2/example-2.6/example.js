@@ -40,7 +40,7 @@ noRepeatRadio.onclick = function (e) {
 
 //initialization...
 
-image.src = 'redball.png';
+image.src = 'http://img17.poco.cn/mypoco/myphoto/20150525/10/17800049220150525103428060.png';
 image.onload = function (e) {
-    fillCanvasWithPattern('http://img17.poco.cn/mypoco/myphoto/20150525/10/17800049220150525103428060.png');
+    fillCanvasWithPattern('repeat');
 };
