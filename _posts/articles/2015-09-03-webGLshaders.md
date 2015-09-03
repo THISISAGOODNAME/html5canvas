@@ -24,7 +24,7 @@ date: 2015-09-03T18:20:06+08:00
 
 &#160; &#160; &#160; &#160;WebG现在可以在几乎所有现代Web浏览器上工作(微软的IE10记以前版本需要一个插件，IE11毫无问题，而且IE11的webGL性能是极其惊人的)。本例只注重渲染，不讨论事件处理和交互。
 
-### 在一个HTML5页面中设置WebGL
+##在一个HTML5页面中设置WebGL
 
 &#160; &#160; &#160; &#160;为了给WebGL提供一个“窗口”用于渲染，首先在网页创建一个HTML5 Canvas元素。在这个例子中，设置他的id为gl-canvas。在后面要使用它的id来初始化WebGL。
 
@@ -99,7 +99,7 @@ date: 2015-09-03T18:20:06+08:00
 
 &#160; &#160; &#160; &#160;现在知道了WebGL已经得到支持了，接下来要扩展实例程序、初始化指定着色器、设置顶点缓冲，以及最后渲染。
 
-### 初始化WebGL里的着色器
+##初始化WebGL里的着色器
 
 &#160; &#160; &#160; &#160;WebGL基于openGL ES2.0版，因此WebGL是一个基于着色器的API，和openGL一样，要求每个应用程序使用顶点和片段着色器来实现渲染，所以，你会遇到加载着色器的需求，和在openGL中一样。
 
@@ -190,7 +190,7 @@ date: 2015-09-03T18:20:06+08:00
 &#160; &#160; &#160; &#160;为了简化编译和链接WebGL的着色器代码，创建了一个InitShaders()程序，但是没有加载glsl文件；着色器定义在了HTML页面源代码中。为了组织好代码，创建InitShaders.js文件。
 
 
-### WebGL着色器载入器：InitShaders.js
+##WebGL着色器载入器：InitShaders.js
 
 
 {% highlight javascript %}
@@ -255,7 +255,7 @@ function InitShaders(gl, vertexShaderId, fragmentShaderId) {
 
 &#160; &#160; &#160; &#160;有了编译和链接到着色器的方法，就可以继续初始化图形数据、加载纹理，并完成WebGL程序的其他部分。
 
-### WebGL初始化顶点数据
+##WebGL初始化顶点数据
 
 &#160; &#160; &#160; &#160;WebGL带给JavaScript的一个显著特征就是类型化数组(typed arrays)，它扩展为JavaScript数组概念，并满足OpenGL数据类型风格，几种类型化数组的类型如下表所示。
 
@@ -277,7 +277,7 @@ function InitShaders(gl, vertexShaderId, fragmentShaderId) {
 
 &#160; &#160; &#160; &#160;第一次需要分配和填充(这两者可以在一个单一的操作里面做)一个类型化数组来存储顶点数据。在此之后，设置VBO即可，和在openGL中是一样的。
 
-### 初始化WebGL里的顶点缓冲
+##初始化WebGL里的顶点缓冲
 
 
 {% highlight javascript %}
@@ -298,7 +298,7 @@ gl.enableVertexAttribArray(vPos);
 {% endhighlight %}
 
 
-### 在WebGL中使用纹理贴图
+##在WebGL中使用纹理贴图
 
 
 &#160; &#160; &#160; &#160;在webGL中使用纹理和openGL一样，但加载处理要简单得多，因为有HTML的帮助。事实上，从文件加载纹理仅仅需要一行代码即可完成。比如，加载一个名为的单一纹理。
@@ -344,7 +344,7 @@ function configureTexture(image) {
 > 由于OpenGL ES 2.0版本的原因，WebGL只支持分辨率为2的幂的纹理。
 
 
-### demo.js的完整源文件
+##demo.js的完整源文件
 
 
 {% highlight javascript %}
