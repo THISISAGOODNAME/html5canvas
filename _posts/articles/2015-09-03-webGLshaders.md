@@ -4,7 +4,7 @@ title: "webGL中使用Shader"
 modified:
 categories: articles
 excerpt: "在原生webGL中使用shader，shader使用官方推荐的引用方式"
-excerpt:
+comments: true
 tags: []
 image:
   feature:
